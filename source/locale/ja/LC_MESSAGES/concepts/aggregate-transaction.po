@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:04+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -156,11 +156,11 @@ msgstr ""
 
 #: ../../source/concepts/aggregate-transaction.rst:70
 msgid ""
-"By creating an aggregate bonded transaction, she can convert USD to "
+"By creating an aggregate bonded transaction, she can convert EUR to "
 "cat.currency to pay the fee. Now Alice and Bob can use NEM blockchain "
 "without ever having to buy or hold cat.currency."
 msgstr ""
-"アグリゲートボンドトランザクションを作ることで、彼女は USD を手数料のための cat.currency に替えることができます。これで Alice "
+"アグリゲートボンドトランザクションを作ることで、彼女は EUR を手数料のための cat.currency に替えることができます。これで Alice "
 "と Bob は cat.currency を購入したり保有することなく、ブロックチェーンを使うことができます。"
 
 #: ../../source/concepts/aggregate-transaction.rst:72
@@ -354,19 +354,18 @@ msgstr ""
 #: ../../source/concepts/aggregate-transaction.rst:158
 msgid ""
 "Announce a hash lock transaction before sending a signed :ref:`aggregate "
-"bonded transaction<aggregate-transaction>`. This mechanism is required to "
-"prevent network spamming."
+"bonded transaction<aggregate-transaction>` to prevent network spamming."
 msgstr ""
-"署名された :ref:`アグリゲートボンドトランザクション <aggregate-transaction>` "
-"を送信する前に、ハッシュロックトランザクションをアナウンスします。このメカニズムはネットワークスパムを防止するために要求されます。"
+"ネットワークスパムの防止により、署名済み :ref:`アグリゲートボンドトランザクション <aggregate-transaction>` "
+"を送信する前に、ハッシュロックトランザクションをアナウンスします。"
 
 #: ../../source/concepts/aggregate-transaction.rst:160
 msgid ""
-"Once the related aggregate bonded transaction is confirmed, locked funds "
-"become available again in the account that signed the initial hash lock "
+"Once the related aggregate bonded transaction is confirmed, the locked funds"
+" become available in the account that signed the initial hash lock "
 "transaction."
 msgstr ""
-"関連するアグリゲートボンドトランザクションが承認されると、ロックされた資金は、初期ハッシュロックトランザクションに署名したアカウントで再び利用可能になります。"
+"関連するアグリゲートボンドトランザクションが承認されると、ロックされた資金は最初のハッシュロックトランザクションに署名したアカウントで利用可能になります。"
 
 #: ../../source/concepts/aggregate-transaction.rst:162
 msgid ""

@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:05+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -169,11 +169,11 @@ msgstr "マルチシグアカウントを使用して資産の所有権を表す
 msgid ""
 "A company could create a 1-of-1 multisig account for each of their products,"
 " adding themselves as the cosignatory. When the company sells the product to"
-" Alice, she becomes the owner, being the company removed in the same "
-"transaction."
+" Alice, she becomes the owner through the action of being added as the "
+"cosigner, and the company is removed in the same transaction."
 msgstr ""
 "企業は製品ごとに 1-of-1 マルチシグアカウントを作成し、連署者として自分自身を追加します。会社が Alice "
-"へ製品を販売するとき、彼女が所有者となり、同じ取引で会社の所有権が取り除かれます。"
+"へ製品を販売するとき、彼女が署名者として追加されることで所有者となり、同じ取引の中で会社の所有権が取り除かれます。"
 
 #: ../../source/concepts/multisig-account.rst:66
 msgid "Transferring an account"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: ../../source/concepts/multisig-account.rst:1
 msgid "The array of cosignatory :doc:`accounts <account>` to add or delete."
-msgstr ""
+msgstr "追加または削除する連署者 :doc:`アカウント <account>` の配列。"
 
 #: ../../source/concepts/multisig-account.rst:144
 msgid "CosignatoryModification"

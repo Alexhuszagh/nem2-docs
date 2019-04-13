@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:04+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -28,7 +28,7 @@ msgstr "ブロック"
 #: ../../source/concepts/block.rst:5
 msgid ""
 "The central element of every cryptocurrency is a public ledger called the "
-"called blockchain, which links blocks together."
+"blockchain, which links blocks together."
 msgstr "全ての暗号通貨の中心となる要素は、ブロック同士がリンクしたブロックチェーンと呼ばれる公開台帳です。"
 
 #: ../../source/concepts/block.rst:9
@@ -211,11 +211,11 @@ msgstr ""
 
 #: ../../source/concepts/block.rst:1
 msgid ""
-"The state of the blockchain is stored in RocksDB for each block, forming a "
+"For each block, the state of the blockchain is stored in RocksDB, forming a "
 "|patricia|. The root of the tree summarizes the state of the blockchain for "
 "a given block."
 msgstr ""
-"ブロックチェーンの状態は各ブロックごとに RocksDB に |patricia| "
+"各ブロックごとにブロックチェーンの状態が RocksDB に |patricia| "
 "の形で保存されています。ツリーのルートは与えられたブロックのブロックチェーンの状態を要約しています。"
 
 #: ../../source/concepts/block.rst:1

@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:12+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -27,11 +27,8 @@ msgstr "マルチシグアカウントへの変換"
 
 #: ../../source/guides/account/converting-an-account-to-multisig.rst:13
 msgid ""
-"Create a 1-of-2 :doc:`multisig account<../../concepts/multisig-account>`, by"
-" adding two cosignatories."
-msgstr ""
-"2名の連署者を追加することによって 1-of-2 :doc:`マルチシグアカウント<../../concepts/multisig-account>` "
-"を作ります。"
+"Create a 1-of-2 :doc:`multisig account<../../concepts/multisig-account>`."
+msgstr "1-of-2 の :doc:`マルチシグアカウント <../../concepts/multisig-account>` を作成します。"
 
 #: ../../source/guides/account/converting-an-account-to-multisig.rst:17
 msgid "Background"
@@ -118,12 +115,13 @@ msgstr ""
 
 #: ../../source/guides/account/converting-an-account-to-multisig.rst:62
 msgid ""
-"Define a :ref:`modify multisig account transaction <modify-multisig-account-"
-"transaction>`  to convert the account into a multisig account. As they need "
-"a 1-of-2 multisig account, set the minimum signatures required to 1."
+"Create a :ref:`modify multisig account transaction <modify-multisig-account-"
+"transaction>`  to convert the account into a multisig account. As they want "
+"to create a 1-of-2 multisig account, set the minimum signatures required to "
+"1."
 msgstr ""
 "アカウントをマルチシグアカウントへ変換するために :ref:`マルチシグアカウント変更トランザクション <modify-multisig-"
-"account-transaction>` を定義します。彼らには 1-of-2 マルチシグアカウントが必要なので、最小署名者は 1 名にセットします。"
+"account-transaction>` を作成します。彼らには 1-of-2 マルチシグアカウントが欲しいので、最小署名者は 1 名にセットします。"
 
 #: ../../source/guides/account/converting-an-account-to-multisig.rst:81
 msgid ""
@@ -133,35 +131,30 @@ msgstr "マルチシグアカウント候補の秘密鍵のトランザクショ
 
 #: ../../source/guides/account/converting-an-account-to-multisig.rst:102
 msgid ""
-"If everything goes well, Alice and Bob should be cosignatories of the "
-"multisig account."
-msgstr "すべてがうまくいけば、Alice と Bob はこのマルチシグアカウントの連署者となるでしょう。"
-
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:104
-msgid ""
-"You could also get the list of the multisig accounts where Alice or Bob are "
-"cosignatories using ``getMultisigAccountInfo`` function."
+"If everything goes well, the account is now multisig, being Alice and Bob "
+"cosignatories. You can get the list of the multisig accounts where Alice or "
+"Bob are cosignatories using ``getMultisigAccountInfo`` function."
 msgstr ""
-"``getMultisigAccountInfo`` 関数を使って、Alice または Bob "
-"が連署者であるマルチシグアカウントの一覧を取得することもできます。"
+"すべてが上手く行けば、このアカウントは Alice と Bob が連署者であるマルチシグになっています。Alice または Bob "
+"が署名者であるマルチシグアカウントのリストは ``getMultisigAccountInfo`` 関数によって取得することができます。"
 
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:108
+#: ../../source/guides/account/converting-an-account-to-multisig.rst:106
 msgid "|getting-multisig-account-cosignatories-ts|"
 msgstr ""
 
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:113
+#: ../../source/guides/account/converting-an-account-to-multisig.rst:111
 msgid "|getting-multisig-account-cosignatories-java|"
 msgstr ""
 
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:118
+#: ../../source/guides/account/converting-an-account-to-multisig.rst:116
 msgid "|getting-multisig-account-cosignatories-js|"
 msgstr ""
 
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:126
+#: ../../source/guides/account/converting-an-account-to-multisig.rst:124
 msgid "What's next?"
 msgstr "次は？"
 
-#: ../../source/guides/account/converting-an-account-to-multisig.rst:128
+#: ../../source/guides/account/converting-an-account-to-multisig.rst:126
 msgid ""
 "Alice an Bob wants to send transactions from the multisig only when both "
 "agree. Modify the multisig account you just created, converting it into a "

@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:11+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:13
 msgid ""
-"**Cohesion/shared knowledge cross NEM developers**: Be able to change "
+"**Cohesion/shared knowledge across NEM developers**: Be able to change "
 "between projects that use NEM, sharing the same design accompanied by the "
 "best practices."
 msgstr ""
@@ -117,8 +117,8 @@ msgid "**Reactive**"
 msgstr "リアクティブ"
 
 #: ../../source/guidelines/sdk-development.rst:34
-msgid "NEM2-SDK uses intensely ReactiveX Library."
-msgstr "NEM2-SDK は熱心に ReactiveX ライブラリを使用しています。 |reactivex| を参照してください。"
+msgid "NEM2-SDK uses ReactiveX Library intensely."
+msgstr "NEM2-SDK は ReactiveX ライブラリを多用しています。"
 
 #: ../../source/guidelines/sdk-development.rst:36
 msgid ""
@@ -238,9 +238,8 @@ msgstr "**サービス**"
 #: ../../source/guidelines/sdk-development.rst:71
 msgid ""
 "Common operations that require multiple :doc:`REST API <../api>` requests "
-"are handled by already provided services."
-msgstr ""
-"複数の :doc:`REST API <../api>` 要求を必要とする一般的な操作は、すでに提供されているサービスによって処理されます。"
+"are handled by services provided."
+msgstr "複数の :doc:`REST API <../api>` 要求を必要とする一般的な操作は、提供されているサービスによって処理されます。"
 
 #: ../../source/guidelines/sdk-development.rst:104
 msgid "Before starting"
@@ -336,14 +335,14 @@ msgstr "プロジェクトの作成"
 #: ../../source/guidelines/sdk-development.rst:130
 msgid ""
 "Add a README with the instructions to install the SDK. You can find "
-":download:`here a template <../resources/templates/README_SDK.md>`."
+":download:`a template here <../resources/templates/README_SDK.md>`."
 msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:132
 msgid ""
 "Add a `Code of Conduct <https://help.github.com/articles/adding-a-code-of-"
-"conduct-to-your-project/>`_.  Download :download:`here an example code of "
-"conduct <../resources/templates/CODE_OF_CONDUCT.md>`."
+"conduct-to-your-project/>`_.  Download :download:`a sample code of conduct "
+"here <../resources/templates/CODE_OF_CONDUCT.md>`."
 msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:134
@@ -388,7 +387,7 @@ msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:148
 msgid ""
-"Generate the ``DTOs`` and place them under under `sdk/infrastructure "
+"Generate the ``DTOs`` and place them under `sdk/infrastructure "
 "<https://github.com/nemtech/nem2-sdk-"
 "java/tree/master/src/main/java/io/nem/sdk/infrastructure>`_. The API swagger"
 " file definition can be found `here "
@@ -459,8 +458,8 @@ msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:173
 msgid ""
-"API conversions: The API returns the data sometimes compressed, you might "
-"need to convert those types for the user."
+"API conversions: Sometimes, the data returned by API is compressed. You "
+"might need to convert those types for the user."
 msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:175
@@ -559,7 +558,7 @@ msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:202
 msgid "**Using the schemas in the transaction models**"
-msgstr ""
+msgstr "**トランザクションモデルでスキーマを使用する**"
 
 #: ../../source/guidelines/sdk-development.rst:204
 msgid ""
@@ -590,21 +589,24 @@ msgstr ""
 
 #: ../../source/guidelines/sdk-development.rst:213
 msgid "KeyPair and Cryptographic functions"
-msgstr ""
+msgstr "キーペアと暗号化関数"
 
 #: ../../source/guidelines/sdk-development.rst:215
 msgid "This section is incomplete."
 msgstr "このセクションは未完了です。"
 
 #: ../../source/guidelines/sdk-development.rst:217
-msgid "Implement the cryptographic purposes required to sign transactions."
-msgstr ""
+msgid ""
+"Implementing the cryptographic functions is required to sign transactions."
+msgstr "トランザクションに署名するには暗号化の機能を実装する必要があります。"
 
 #: ../../source/guidelines/sdk-development.rst:219
 msgid ""
 "Example: `core/crypto <https://github.com/nemtech/nem2-sdk-"
 "java/tree/master/src/main/java/io/nem/core/crypto>`_"
 msgstr ""
+"例: `core/crypto <https://github.com/nemtech/nem2-sdk-"
+"java/tree/master/src/main/java/io/nem/core/crypto>`_"
 
 #: ../../source/guidelines/sdk-development.rst:223
 msgid "Documenting your SDK"

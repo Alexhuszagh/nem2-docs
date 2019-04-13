@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:06+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -413,9 +413,9 @@ msgstr "トランザクションは定義されましたが、まだネットワ
 
 #: ../../source/getting-started/first-application.rst:168
 msgid ""
-"Sign the transaction the ticket vendor account first, so that the network "
-"can verify the authenticity of the transaction."
-msgstr "ネットワークがトランザクションの信頼性を検証できるように、まずチケット販売者のアカウントでトランザクションに署名をします。"
+"Sign the transaction of the ticket vendor account first, so that the network"
+" can verify the authenticity of the transaction."
+msgstr "ネットワークがトランザクションの信頼性を検証できるように、まずチケット販売者のアカウントnのトランザクションに署名をします。"
 
 #: ../../source/getting-started/first-application.rst:181
 msgid "Once signed, announce the transaction to the network."

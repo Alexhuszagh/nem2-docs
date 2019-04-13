@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:05+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -45,9 +45,9 @@ msgstr ""
 
 #: ../../source/concepts/mosaic.rst:9
 msgid ""
-"Each mosaic has a set of configurable properties. During the mosaic "
-"creation, you can define:"
-msgstr "各モザイクは設定可能なプロパティの集合を持ちます。モザイクを作成する時に定義できます:"
+"Each mosaic has a unique identifier and a set of configurable properties. "
+"During the mosaic creation, you can define:"
+msgstr "各モザイクは一意な識別子と設定可能なプロパティの集合を持ちます。モザイクを作成する時に定義できます:"
 
 #: ../../source/concepts/mosaic.rst:1 ../../source/concepts/mosaic.rst:1
 #: ../../source/concepts/mosaic.rst:1 ../../source/concepts/mosaic.rst:1
@@ -92,9 +92,9 @@ msgstr ""
 
 #: ../../source/concepts/mosaic.rst:1
 msgid ""
-"Specifies the number of confirmed blocks the mosaic is rented for. Mosaics "
-"can be configured to not expire."
-msgstr "モザイクのレンタル期間の承認済みブロック数を指定します。期限が切れないモザイクを構成することが可能です。"
+"Specifies the number of confirmed blocks the mosaic is rented for. To create"
+" non-expiring mosaics, leave this property undefined."
+msgstr "モザイクのレンタル期間の承認済みブロック数を指定します。期限の切れないモザイクを作るためにはプロパティを未定義のままにしてください。"
 
 #: ../../source/concepts/mosaic.rst:1
 msgid "Initial supply"
@@ -191,7 +191,6 @@ msgstr "モザイクIDを生成するために使用されるランダムなノ�
 
 #: ../../source/concepts/mosaic.rst:1 ../../source/concepts/mosaic.rst:1
 #: ../../source/concepts/mosaic.rst:1 ../../source/concepts/mosaic.rst:1
-#: ../../source/concepts/mosaic.rst:1
 msgid "mosaicId"
 msgstr ""
 
@@ -300,6 +299,10 @@ msgstr ""
 #: ../../source/concepts/mosaic.rst:1
 msgid "The property id. (0x02) stands for duration."
 msgstr "プロパティID (0x02) は期間を意味します。"
+
+#: ../../source/concepts/mosaic.rst:1
+msgid "value"
+msgstr ""
 
 #: ../../source/concepts/mosaic.rst:1
 msgid "The mosaic property value."

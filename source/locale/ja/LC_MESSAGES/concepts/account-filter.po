@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nem2-docs 0.17.2\n"
+"Project-Id-Version: nem2-docs 0.17.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 18:08+0000\n"
+"POT-Creation-Date: 2019-04-12 17:41+0100\n"
 "PO-Revision-Date: 2019-02-22 09:04+0000\n"
 "Last-Translator: Yoshiyuki Ieyama <yukku0423+github@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/nemtech/teams/95744/ja/)\n"
@@ -137,11 +137,11 @@ msgstr "アカウントのセキュリティ向上"
 #: ../../source/concepts/account-filter.rst:61
 msgid ""
 "Lately, Alice is only using her main account to cosign aggregate "
-"transactions where a :doc:`multisig<multisig-account>` she is a cosignatory "
-"is involved."
+"transactions where she is a cosignatory for the :doc:`multisig<multisig-"
+"account>` account."
 msgstr ""
-"最近、Alice は 彼女が連署者である :doc:`マルチシグ <multisig-account>` "
-"のアグリゲートトランザクションに署名するために、彼女のメインアカウントだけを使用していました。"
+"最近 Alice は、メインアカウントを彼女が連署者である :doc:`マルチシグ <multisig-account>` "
+"アカウントのアグリゲートトランザクションに署名するためだけに使用しています。"
 
 #: ../../source/concepts/account-filter.rst:63
 msgid ""
