@@ -1260,7 +1260,7 @@ definitions:
     type: object
     required:
     - owner
-    - ownerAddres
+    - ownerAddress
     - startHeight
     - endHeight
     - depth
